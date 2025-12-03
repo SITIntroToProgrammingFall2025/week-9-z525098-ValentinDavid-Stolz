@@ -32,7 +32,7 @@ int main(){
         printf("\n");
     }
 
-    printf("The multiplication product of the matrix A and matrix B :\n");
+    printf("The multiplication product of matrix A and matrix B:\n");
     for(i=0; i < 2; i++){
         for(j = 0; j < 2; j++){
             printf("%g ", a[i][0] * b[0][j] + a[i][1] * b[1][j] + a[i][2] * b[2][j]);
@@ -42,3 +42,4 @@ int main(){
 
     return 0;
 }
+

@@ -19,7 +19,7 @@ int main(){
     }
 
     for(i = 0; i < 5; i++){
-        distance[i] = sqrt(pow((rgb[0] - colTb[i][0]), 2) + pow((rgb[1] - colTb[i][1]), 2) + pow((rgb[2] - colTb[>
+        distance[i] = sqrt(pow((rgb[0] - colTb[i][0]), 2) + pow((rgb[1] - colTb[i][1]), 2) + pow((rgb[2] - colTb[i][2]), 2));
     }
 
     int min_index = 0;
@@ -36,5 +36,3 @@ int main(){
 
     return 0;
 }
-
-

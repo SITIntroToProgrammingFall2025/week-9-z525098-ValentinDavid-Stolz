@@ -23,10 +23,12 @@ int main(){
         }
     }
 
+    printf("sorted array:\n");
     for(i = 0; i < SIZE; i++){
         printf("%d ", nums[i]);
     }
 
     return 0;
 }
+
 

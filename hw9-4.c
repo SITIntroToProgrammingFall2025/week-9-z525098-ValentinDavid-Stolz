@@ -9,6 +9,7 @@ int main(){
         scanf("%d", &rgb[i]);
     }
 
+    printf("The hex code is #");
     for(i = 0; i < 3; i++){
         int fc = rgb[i] / 16;
         int sc = (((double)rgb[i] / (double)16) - fc) * 16;
@@ -19,5 +20,6 @@ int main(){
 
     return 0;
 }
+
 
 
